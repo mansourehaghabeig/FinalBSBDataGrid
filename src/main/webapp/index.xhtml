@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" >
+    <h:head>
+        <title>BSB_eksmoon</title>
+        <h:outputScript library="js" name="jsfsort.js" /> 
+        <h:outputStylesheet library="css" name="table.css"  />
+        <h:outputStylesheet library="css" name="html-skin.css"  />
+        <h:outputStylesheet library="css" name="imgareaselect-default.css"  />
+        <h:outputStylesheet library="css" name="jquery-ui-1.10.4.custom.min.css"  />
+        <h:outputStylesheet library="css" name="jquery.autocomplete.css"  />
+        <h:outputStylesheet library="css" name="jquery.dict.css"  />
+        <h:outputStylesheet library="css" name="komunikator.css"  />
+        <h:outputStylesheet library="css" name="mail.css"  />
+        <h:outputStylesheet library="css" name="naglowek.css"  />
+        <h:outputStylesheet library="css" name="style.css"  />
+        <h:outputStylesheet library="css" name="thickbox.css"  />
+    </h:head>
+    <h:body>
+
+        <h:panelGrid class="srodek center">
+            <f:view >
+                <h:form>
+                    <h:dataTable value="#{dataGridBean.dataList}" var="item"
+                                 style=" width: 980px;"
+                                 class="sortable multiTable"
+                                 id="t"
+                                 headerClass="TR mul_a"
+                                 rowClasses="mul_b"
+                                 footerClass="TR mul_c TFOOT2"
+                                 columnClasses="sel_kolumna_lp mul_right,mul_left,mul_left,mul_center,mul_left,mul_left,mul_left,mul_left"
+                                 >
+                        <h:column headerClass="TR mul_af" footerClass="mul_c1">
+                            <f:facet name='header' ></f:facet>
+                                #{dataGridBean.dataList.rowIndex+1}
+                            <f:facet name="footer" ><h:column ></h:column></f:facet>      
+                        </h:column >
+                        <h:column>
+                            <f:facet name='header'>Numer sprawy</f:facet>
+                                #{item.numbrSprawy}
+                            <f:facet name="footer"></f:facet>   
+                        </h:column>
+                        <h:column>
+                            <f:facet name='header'>Typ sprawy</f:facet>
+                                #{item.typSprawy}
+                            <f:facet name="footer"></f:facet>   
+                        </h:column>
+                        <h:column>
+                            <f:facet name='header'>Date rozpoczcia</f:facet>
+                                #{item.rozpoczcia}
+                            <f:facet name="footer"></f:facet>   
+                        </h:column>
+                        <h:column>
+                            <f:facet name='header'>Zespol</f:facet>
+                                #{item.zespol}
+                            <f:facet name="footer"></f:facet>   
+                        </h:column>
+                        <h:column>
+                            <f:facet name='header'>Nazwisko</f:facet>
+                                #{item.nazwisko}
+                            <f:facet name="footer"></f:facet>   
+                        </h:column>
+                        <h:column>
+                            <f:facet name='header'>Imie</f:facet>
+                                #{item.imie}
+                            <f:facet name="footer"></f:facet>   
+                        </h:column>
+                        <h:column headerClass="TR mul_af2" footerClass="mul_c3" >
+                            <f:facet name='header'>Miasto</f:facet>
+                                #{item.miasto}
+                            <f:facet name="footer"><h:column ></h:column></f:facet>   
+                        </h:column>
+
+                    </h:dataTable>
+                </h:form>
+            </f:view>
+        </h:panelGrid>
+
+
+
+    </h:body>
+</html>
+

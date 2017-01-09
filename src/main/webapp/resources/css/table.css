@@ -1,0 +1,186 @@
+/*
+    Document   : tabela.css
+    Created on : 2013-08-13, 13:14:58
+    Author     : piotrp
+    Description:
+        style uzywane w tabelach wielorekordowych.
+*/
+/* Sortable tables */
+THEAD.multi{
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+    background-color: #6B7B88;
+    height: 26px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    vertical-align: middle;
+
+}
+
+TABLE.mul{
+    border-spacing: 1px;
+
+}
+TR.sortable{
+
+}
+
+.TR.mul_a,THEAD.mul_a{
+    font-style: italic;
+    background-color: #6B7B88;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 24px;
+
+
+}
+
+.TR.mul_af, THEAD.mul_af{
+    font-style: italic;
+    background-color: #6B7B88;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 24px;
+    border-top-left-radius: 0.7em; 
+}
+
+.TR.mul_af2, THEAD.mul_af2{
+    font-style: italic;
+    background-color: #6B7B88;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 24px;
+    border-top-right-radius: 0.7em; 
+}
+
+
+TH.mul_a1{
+    background: url('/COMMON/img/mula1.png') no-repeat left top;
+    background-color: #6B7B88;
+}
+TH.mul_a2{
+}
+TH.mul_a3{
+    background: url('/COMMON/img/mula3.png') no-repeat right top;
+    background-color: #6B7B88;
+}
+
+TR.mul_c,TFOOT.mul_c{
+    background-color: #0051BA;
+    height: 6px;
+    
+}
+TD.mul_c1{
+    background: url('/COMMON/img/mulc1.png') no-repeat left bottom;
+    background-color: #6B7B88;
+    height: 6px;
+    border-bottom-left-radius: 0.7em;
+}
+TD.mul_c2{
+}
+TD.mul_c3{
+    background: url('/COMMON/img/mulc3.png') no-repeat right bottom;
+    background-color: #6B7B88;
+    height: 6px;
+    border-bottom-right-radius: 0.7em;
+    
+}
+
+
+SPAN.mul_1{
+    background-color: #6B7B88;
+    height: 26px;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+SPAN.mul_2{
+}
+TBODY.tbody2 {
+    border-style:none;
+    background:rgb(235,241,210);
+    padding-right: 3px;
+    padding-left: 6px;
+    font-size: 12px;
+    padding-bottom: 0px;
+    color: #6b7b88;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 26px;
+    text-align: left;
+    text-decoration: none ;
+}
+.mul_b
+{
+    color: rgb(52,61,67);
+    text-decoration: none;
+    background-color: #F1F5F8;
+    height: 26px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    vertical-align: central;
+
+
+}
+
+TD.mul_left{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#6B7B88;
+    text-align: left;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    vertical-align: central;
+
+}
+TD.mul_right{
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#6B7B88;    
+    text-align: right;
+    padding-top: 1px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    vertical-align: central;
+
+}
+TD.mul_center{
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#6B7B88;
+    text-align: center;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    vertical-align: central;
+
+}

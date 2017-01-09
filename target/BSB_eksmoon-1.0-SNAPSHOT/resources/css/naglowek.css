@@ -1,0 +1,351 @@
+/*
+    Document   : naglowek
+    Created on : 2013-05-07, 10:20:29
+    Author     : piotrp
+    Description:
+        style uzywane przez naglowek i stopke strony oraz centrowanie tabel.
+*/
+
+BODY
+{
+    background-color: White;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  12px;
+    text-decoration:none;
+    margin:6px;
+    display: block;
+}
+
+.top_link,.top_link:link, .top_link:visited,.top_link:active, .top_link:hover
+{
+
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+DIV.centerTable{
+}
+TABLE.centerTable{
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing: 0px;
+}
+TABLE.multiTable{
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing: 1px;
+}
+/*  pasek dolny nad Projekt finansowany ... */
+TD.bot_a1 {
+    background-image: url(/COMMON/img/bota1.png);
+    background-repeat: no-repeat;
+    width: 6px;
+}
+TD.bot_a2 {
+    background-color: #6B7B88;
+    width: 968px;
+}
+TD.bot_a3 {
+    background-image: url(/COMMON/img/bota3.png);
+    background-repeat: no-repeat;
+    width: 6px;
+}
+/*  pasek dolny Projekt finansowany ... */
+TD.bot_b1 {
+    background-image: url("/COMMON/img/log_bottom.jpg");
+    background-repeat: no-repeat;
+    width: 980px;
+}
+/*  pasek dolny pod Projekt finansowany ... */
+TD.bot_c1 {
+    background-image: url(/COMMON/img/botc1.png);
+    background-repeat: no-repeat;
+    width: 6px;
+}
+TD.bot_c2 {
+    width: 968px;
+    padding-left: 24px;
+}
+TD.bot_c3 {
+    background-image: url(/COMMON/img/botc3.png);
+    background-repeat: no-repeat;
+    width: 6px;
+}
+
+/*  pasek górny ekranu logowania 'Zapraszamy do logowania' */
+TD.top_a1 {
+    background-image: url(/COMMON/img/topa1.png);
+    background-repeat: no-repeat;
+    width: 6px;
+
+}
+TD.top_a2 {
+    background-color: rgb(107, 123, 136);
+    width: 246px;
+
+}
+TD.top_a3 {
+    background-image: url(/COMMON/img/topa3.png);
+    background-repeat: no-repeat;
+    width: 14px;
+
+}
+TD.top_a4 {
+    background-color: rgb(107, 123, 136);
+    width: 708px;
+
+}
+TD.top_a5 {
+    background-image: url(/COMMON/img/topa5.png);
+    background-repeat: no-repeat;
+    width: 6px;
+
+}
+/*  pasek gorny z logiem decsoft*/
+TD.top_b1 {
+    background-image: url(/COMMON/img/topb1.png);
+    background-repeat: no-repeat;
+    width: 6px;
+
+}
+TD.top_b2 {
+    background-image: url(/COMMON/img/topb2.jpg);
+    background-repeat: no-repeat;
+    width: 246px;
+
+}
+TD.top_b3 {
+    background-image: url(/COMMON/img/topb3.png);
+    background-repeat: no-repeat;
+    width: 14px;
+
+}
+TD.top_b4 {
+    background-image: url(/COMMON/img/topb4.jpg);
+    background-repeat: no-repeat;
+    width: 708px;
+}
+TD.top_b5 {
+    background-image: url(/COMMON/img/topb5.png);
+    background-repeat: no-repeat;
+    width: 6px;
+
+}
+/*  pasek gorny ''menu glowne programu'' i ''wyloguj''*/
+TD.top_c1 {
+    background-image: url(/COMMON/img/topa1.png);
+    background-repeat: no-repeat;
+    width: 6px;
+
+}
+TD.top_c2 {
+    background-image: url(/COMMON/img/domek.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+
+}
+TD.top_c3 {
+    width: 222px;
+
+}
+TD.top_c4 {
+    background-image: url(/COMMON/img/topa3.png);
+    background-repeat: no-repeat;
+    width: 14px;
+
+}
+TD.top_c5 {
+    width: 24px;
+
+}
+TD.top_c6 {
+    width: 610px;
+
+}
+TD.top_c7 {
+    background-image: url(/COMMON/img/wyloguj_arrow.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+
+}
+TD.top_c8 {
+    width: 50px;
+
+}
+TD.top_c9 {
+    background-image: url(/COMMON/img/topa5.png);
+    background-repeat: no-repeat;
+    width: 6px;
+
+}
+/*  pasek gorny imie nazwisko uzytkownika i zespol*/
+TD.top_d1 {
+    background-image: url(/COMMON/img/topa1.png);
+    background-repeat: no-repeat;
+    width: 6px;
+
+}
+TD.top_d4 {
+    width: 14px;
+
+}
+TD.top_d2 {
+    background-color: #6B7B88;
+    background-image: url(/COMMON/img/ludziki.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+
+}
+TD.top_d5 {
+    background-color: #6B7B88;
+    background-image: url(/COMMON/img/ibox.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+
+}
+TD.top_d9 {
+    background-image: url(/COMMON/img/topa5.png);
+    background-repeat: no-repeat;
+    width: 6px;
+
+}
+
+/* diwy */
+DIV.bot_b2 {
+    padding-top: 3px;
+}
+DIV.top_a2 {
+    padding-top: 3px;
+}
+DIV.top_b4 {
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+}
+DIV.top_c3 {
+    padding-top: 3px;
+}
+DIV.top_c8 {
+    padding-top: 3px;
+}
+DIV.top_d3 {
+    padding-top: 3px;
+}
+DIV.top_d6 {
+    padding-top: 3px;
+}
+/* odstepy */
+TD.top_space_height {
+    height: 1px;
+}
+TD.bot_space_height {
+    height: 1px;
+}
+
+
+
+/* defy wierszy*/
+TR.bot_a {
+    background-color: #6B7B88;
+    height: 24px;
+}
+TR.bot_b {
+    background-color: #6B7B88;
+    height: 65px;
+}
+TR.bot_c {
+    background-color: #6B7B88;
+    height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 10px;
+}
+TR.top_a {
+    background-color: #6B7B88;
+    height: 24px;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+}
+TR.top_b {
+    background-color: #FFFFFF;
+    height: 47px;
+    color: #FFFFFF;
+    text-align: right;
+}
+TR.top_c {
+    background-color: #6B7B88;
+    height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 10px;
+}
+TR.top_d {
+    background-color: #6B7B88;
+    height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 10px;
+}
+DIV.center{
+}
+DIV.srodek{
+    margin-top:6px;
+    margin-bottom:6px;
+    margin-left:0px;
+    margin-right:0px;
+}
+TABLE{
+    margin:0px;
+}
+TABLE.collapse{
+    *border-collapse: collapse;  
+}
+TABLE.separate{
+    border-collapse: separate;
+}
+TABLE.border{
+    margin-left:auto;
+    margin-right:auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-spacing:0px;        
+}
+TABLE.center{
+    margin-left:auto;
+    margin-right:auto;
+    border-width: 0px;
+    border-style: none;
+    border-spacing: 0px;
+
+}
+TABLE.center2{
+    border-width: 0px;
+    border-style: none;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+TABLE.w770{
+    width: 770px;
+}
+
+TABLE.w980{
+    width: 980px;
+}
+TABLE.w450{
+    width: 450px;
+}
+TABLE.w380{
+    width: 380px;
+}
+TD{
+    padding: 0px;
+}

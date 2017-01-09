@@ -1,0 +1,94 @@
+/*
+    Document   : komunikator
+    Created on : 2013-05-07, 10:20:29
+    Author     : piotrp
+    Description:
+        style uzywane w komunikatorze i poczcie
+*/
+
+.wiadomosc_nieczytana {
+    color: #476B87;
+    font-weight: bold;
+}
+a.wiadomosc_nieczytana:link,     /* unvisited link */
+a.wiadomosc_nieczytana:visited ,  /* visited link */
+a.wiadomosc_nieczytana:hover ,  /* mouse over link */
+a.wiadomosc_nieczytana:active {color: #476B87; font-weight: bold;}   /* selected link */
+
+.wiadomosc_przeczytana {
+    color: #6B7B88;
+    font-weight: normal;
+}
+a.wiadomosc_przeczytana:link ,   /* unvisited link */
+a.wiadomosc_przeczytana:visited ,  /* visited link */
+a.wiadomosc_przeczytana:hover ,   /* mouse over link */
+a.wiadomosc_przeczytana:active {color: #6B7B88; font-weight: normal;}   /* selected link */
+
+.wiadomosc_nieczytana_sys {
+    color: #C26B87;
+    font-weight: bold;
+}
+a.wiadomosc_nieczytana_sys:link ,    /* unvisited link */
+a.wiadomosc_nieczytana_sys:visited ,  /* visited link */
+a.wiadomosc_nieczytana_sys:hover ,  /* mouse over link */
+a.wiadomosc_nieczytana_sys:active {color: #C26B87; font-weight: bold;}   /* selected link */
+
+.wiadomosc_przeczytana_sys {
+    color: #B27B88;
+    font-weight: normal;
+}
+a.wiadomosc_przeczytana_sys:link ,     /* unvisited link */
+a.wiadomosc_przeczytana_sys:visited ,  /* visited link */
+a.wiadomosc_przeczytana_sys:hover ,  /* mouse over link */
+a.wiadomosc_przeczytana_sys:active {color: #B27B88; font-weight: normal;}   /* selected link */
+
+.msg_button_class_1{
+    position: fixed;
+    top:30px;
+    right:30px;
+    width:174px;
+    height: 24px;
+    background-image: url(/COMMON/mail/img/nowa_wiadomosc_1.png);
+    text-align: right;
+    font-size: small;
+    padding-top: 5px;
+    padding-right: 5px;
+    display: none;
+    cursor: pointer;
+    color: #FFFEFF;
+    font-weight: normal;
+}
+
+.msg_button_class_2{
+    position: fixed;
+    top:30px;
+    right:30px;
+    width:174px;
+    height: 24px;
+    background-image: url(/COMMON/mail/img/nowa_wiadomosc_2.png);
+    text-align: right;
+    font-size: small;
+    padding-top: 5px;
+    padding-right: 5px;
+    display: none;
+    cursor: pointer;
+    color: #FFFEFF;
+    font-weight: normal;
+}
+
+.msg_button_class_3{
+    position: fixed;
+    top:30px;
+    right:30px;
+    width:174px;
+    height: 24px;
+    background-image: url(/COMMON/mail/img/nowa_wiadomosc_3.png);
+    text-align: right;
+    font-size: small;
+    padding-top: 5px;
+    padding-right: 5px;
+    display: none;
+    cursor: pointer;
+    color: #FFFEFF;
+    font-weight: normal;
+}

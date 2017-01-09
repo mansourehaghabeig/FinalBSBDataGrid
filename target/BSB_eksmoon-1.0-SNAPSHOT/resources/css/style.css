@@ -1,0 +1,1402 @@
+/*
+    Document   : style
+    Created on : 2013-05-07, 10:20:29
+    Author     : piotrp
+    Description:
+        glowny arkusz styli formatujacy tresc pomiedzy naglowkiem a stopka.
+*/
+FORM
+{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left:0px;
+    margin-right:0px;    
+}
+H1
+{
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+H2
+{
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+H3
+{
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.blad
+{
+    color: rgb(180,0,0);
+    font-family: Tahoma;
+    font-size: large;
+    font-weight: bolder;
+    cursor: default;
+}
+.page_komunik
+{
+    color: #495661;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: default;
+}
+.uwagi
+{
+    color: rgb(90,90,130);
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: default;
+}
+TD.fbar1
+{
+    background-image: url(/COMMON/img/fbar1.png);
+    background-repeat: no-repeat;
+    height: 27px;
+    width: 15px;
+}
+TD.fbar2
+{
+    background-image: url(/COMMON/img/fbar2.png);
+    background-repeat: no-repeat;
+    height: 27px;
+    width: 15px;
+}
+TD.fbar3
+{
+    background-image: url(/COMMON/img/fbar3.png);
+    background-repeat: no-repeat;   
+    background-position: bottom; 
+    height: 27px;
+    width: 12px;
+}
+TD.fbar4a
+{
+    background-image: url(/COMMON/img/fbar4.png);
+    background-repeat: repeat-x;
+    background-position: bottom;   
+    height: 27px;
+    width: 537px;
+}
+TD.fbar4b
+{
+    background-image: url(/COMMON/img/fbar4.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    vertical-align: bottom;
+    height: 27px;
+    width: 96px;
+}
+TD.button_linia
+{
+    background-color: #6B7B88;
+    height: 2px;    
+}
+
+TD.fbar
+{
+    background-color: #6B7B88;
+    height: 27px;
+    width: 305px;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}
+TD.fbar_red
+{
+    background-color: #6B7B88; 
+    height: 27px;
+    width: 305px;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FF6347;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+}
+DIV.fbar_button
+{
+    background-color: #6B7B88;
+    border-color: #6B7B88;
+    border-style: none;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;   
+    height: 16px;
+}
+INPUT.form_button
+{
+    white-space:nowrap;
+    background-color: rgb(210,221,232);
+    color: rgb(52,61,67);
+    border-color: rgb(82,95,105);
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 11px;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    height: 27px;   
+    cursor: default;
+}
+BUTTON.form_button
+{
+    white-space:nowrap;
+    background-color: rgb(210,221,232);
+    color: rgb(52,61,67);
+    border-color: rgb(82,95,105);
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 11px;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    height: 27px;   
+    cursor: default;
+}
+BUTTON.form_button_dis
+{
+    white-space:nowrap;
+    background-color:rgb(210,221,232);
+    color: rgb(133,138,142);
+    border-color: rgb(82,95,105);
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 11px;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    height: 27px;  
+    cursor: default;
+}
+BUTTON.form_button_powrot
+{
+    white-space:nowrap;
+    background-color: rgb(210,221,232);
+    color: rgb(52,61,67);
+    border-color: rgb(82,95,105);
+    border-style: solid;
+    border-width: 3px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 11px;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    height: 27px;      
+    cursor: default;
+}
+TABLE.fixed
+{
+    table-layout: fixed;    
+}
+TABLE.align_center
+{
+    text-align: center;    
+}
+TABLE.align_left
+{
+    text-align: left;
+}
+TABLE.align_right
+{
+    text-align: right;
+}
+.form_button_dis
+{
+    white-space:nowrap;
+    background-color:rgb(210,221,232);
+    color: rgb(52,61,67);
+    border-color: rgb(82,95,105);
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 11px;
+    font-style: normal;
+    text-align: center;
+    vertical-align: middle;
+    height: 27px;  
+    cursor: default;
+}
+.form_chkbox
+{
+    font-family: Tahoma;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(52,61,67);
+    text-align: left;
+    vertical-align: middle;
+}
+.form_text
+{
+    border: 1px solid rgb(162,171,179);
+    font-family: Tahoma;
+    font-size: small;
+    text-decoration: none;
+    background-color: rgb(250,251,253);
+    color: rgb(52,61,67);
+    text-align: left;
+    vertical-align: middle;
+}
+.form_text_dec
+{
+    border: 1px solid rgb(162,171,179);
+    font-family: Tahoma;
+    font-size: small;
+    text-decoration: none;
+    background-color: rgb(250,251,253);
+    color: rgb(52,61,67);
+    text-align: right;
+    vertical-align: middle;
+}
+.form_text_int
+{
+    border: 1px solid rgb(162,171,179);
+    font-family: Tahoma;
+    font-size: small;
+    text-decoration: none;
+    background-color: rgb(250,251,253);
+    color: rgb(52,61,67);
+    text-align: right;
+    vertical-align: middle;
+}
+.form_odstep
+{
+    background-color: #6B7B88;
+    height: 27px;
+    width: 256px;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+}
+.form_space
+{
+    height: 1px;
+}
+.form_etyk
+{
+    background-color: #D2DDE8;
+    height: 22px;
+    color: rgb(82,95,105);
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    vertical-align: middle;
+    cursor: default;   
+    max-width: 246px;
+    min-width: 246px;
+    width:246px;
+}
+.form_komunikat
+{
+    background-color: #D2DDE8;
+    height: 22px;
+    color: rgb(82,95,105);
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: default;
+}
+.form_etyk_white
+{
+    background-color: #6B7B88;
+    height: 27px;
+    width: 980px;
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    text-align: left;
+    padding-left: 8px;
+    cursor: default;
+}
+.form_tlo
+{
+    font-family: Tahoma;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(82,95,105);
+    text-align: left;
+    background-color: rgb(235,241,245);
+    height: 22px;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    cursor: default;
+}
+.form_etyk_white_old
+{
+    background-color: #6B7B88;
+    height: 27px;
+    width: 980px;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 8px;
+    cursor: default;
+}
+.form_oswiadcz
+{
+    background-color: rgb(230,230,230);
+    height: 27px;
+    width: 980px;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(160,0,0);
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 8px
+}
+.form_select
+{
+    border: 1px solid rgb(217,221,224);
+    font-family: Tahoma;
+    font-size: small;
+    text-decoration: none;
+    background-color: rgb(250,251,253);
+    color: rgb(52,61,67);
+    text-align: left;
+    vertical-align: middle;
+}
+
+.form_wart
+{
+    color: rgb(52,61,67);
+    font-family: Tahoma;
+    font-size: small;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: middle;
+}
+TD.form_tytul
+{   
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #495661;
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    cursor: default;
+}
+TD.strzalka
+{
+    background-image: url(/COMMON/img/strzalka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 23px;
+    vertical-align: top;
+    cursor: default;
+}
+A
+{
+    color: rgb(110,0,0);
+    font-family: Tahoma;
+    font-size: small;
+    font-weight: bolder;
+    text-align: left;
+}
+.sel_naglowek_old
+{
+    color: rgb(0,0,96 );
+    background-color: rgb(192,192,192);
+    font-family: Tahoma;
+    font-size: small;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: right;
+    vertical-align: middle;
+}
+.sel_naglowek
+{
+    background-color: #6B7B88;
+    height: 26px;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    vertical-align: middle;
+}
+.sel_link,.sel_link:link,.sel_link:visited,.sel_link:active,.sel_link:hover{
+    font-family: Arial;
+    font-size: 12px;
+    color: #971216;
+    text-decoration: underline;
+}
+.sel_kolumna_button
+{
+    background-color: #F1F5F8;
+    text-align: center;
+    white-space: nowrap;
+    width:10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.sel_kolumna_lp
+{
+    text-align: right;
+    background-color: #F1F5F8;
+}
+TD.rap_tytul
+{
+    color: rgb(0,0,0);
+    font-family: Tahoma;
+    font-size: medium;   
+    font-weight: bolder;
+    text-align: left;
+    vertical-align: middle;
+}
+TD.rap_param
+{
+    color: rgb(0,0,0);
+    font-family: Tahoma;    
+    font-style: normal;    
+    text-align: right;
+    vertical-align: middle;
+}
+TD.rap_slewa
+{
+   
+    color: rgb(0,0,0);
+    font-family: Tahoma;
+    font-size: small;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: middle;
+}
+TD.rap_lewa
+{   
+     color: rgb(0,0,0);
+     font-family: Tahoma;
+     font-size: medium;
+     font-style: normal;
+     font-weight: normal;
+     text-align: left;
+     vertical-align: middle;
+     padding-left: 1pt;
+}
+TD.rap_blewa
+{   
+     color: rgb(0,0,0);
+     font-family: Tahoma;
+     font-size: medium;
+     font-style: normal;
+     font-weight: bolder;
+     text-align: left;
+     vertical-align: middle;
+     padding-left: 1pt;
+}
+TD.rap_sprawa
+{   
+     color: rgb(0,0,0);
+     font-family: Tahoma;
+     font-size: small;
+     font-style: normal;
+     font-weight: normal;
+     text-align: right;
+     vertical-align: middle;
+}
+TD.rap_prawa
+{   
+     color: rgb(0,0,0);
+     font-family: Tahoma;
+     font-size: medium;
+     font-style: normal;
+     font-weight: normal;
+     text-align: right;
+     vertical-align: middle;
+     padding-right: 1pt;
+}
+TD.rap_bprawa
+{   
+     color: rgb(0,0,0);
+     font-family: Tahoma;
+     font-size: medium;
+     font-style: normal;
+     font-weight: bolder;
+     text-align: right;
+     vertical-align: middle;
+     padding-right: 1pt;
+}
+TD.rap_bsrodek
+{   
+     color: rgb(0,0,0);
+     font-family: Tahoma;
+     font-size: medium;
+     font-style: normal;
+     font-weight: bolder;
+     text-align: center;
+     vertical-align: middle;
+}
+TD.rap_srodek
+{   
+     color: rgb(0,0,0);
+     font-family: Tahoma;
+     font-size: initial;
+     font-style: normal;
+     font-weight: normal;
+     text-align: center;
+     vertical-align: middle;
+}
+TD.rap_ssrodek
+{  
+     color: rgb(0,0,0);
+     font-family: Tahoma;
+     font-size: small;
+     font-style: normal;
+     font-weight: 	normal;
+     text-align: center;
+     vertical-align: middle;
+}
+
+TD.border{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;    
+}
+
+TD.rap_opis
+{
+    color: rgb(0,0,0);
+    font-family: Tahoma;
+    font-size: small;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+}
+TD.rap_zespol
+{
+    color: rgb(0,0,0);
+    font-family: Tahoma;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    vertical-align: middle;
+}
+TD.rap_pasek
+{
+    color: rgb(0,0,0);
+    font-family: Tahoma;
+    font-size: small;
+    font-style: normal;
+    vertical-align: middle;
+}
+.fred1 {
+    background-image: url(/COMMON/img/fred1.jpg);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 3px;
+}
+.fred2 {
+    background-image: url(/COMMON/img/fred2.jpg);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 3px;
+}
+.fred {
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #971216;
+    height: 25px;
+    width: 974px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+}
+.fbar_header {
+    background-color: #6B7B88;
+    height: 26px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    cursor: default;
+}
+.fbar_row {
+    font-family: Arial;
+    font-size: 11px;
+    color: #6B7B88;
+    text-decoration: none;
+    background-color: #E8EDF0;
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+}
+.trang {
+    background-color: #6B7B88;
+    height: 26px;
+    width: 7px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+}
+.fbar_br {
+    background-image: url(/COMMON/img/field_br.jpg);
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 1px;
+}
+.fbar_space {
+    height: 26px;
+    width: 1px;
+}
+.tab_top1{
+    cursor: pointer;
+
+    background-image: url(/COMMON/img/tabtop1.gif);
+    font-family: Arial;
+    background-repeat: no-repeat;
+    font-size: 5px;
+    color: rgb(235,241,245);
+    background-color: rgb(235,241,245);
+    width: 5px;
+    height: 27px;
+}
+.tab_top2{
+    cursor: pointer;
+
+    font-family: Arial;
+    background-image: url(/COMMON/img/tabtop2.gif);
+    background-repeat: no-repeat;
+    font-size: 5px;
+    color: rgb(235,241,245);
+    background-color: rgb(235,241,245);
+    width: 5px;
+    height: 27px;
+}
+.tab_top1s{
+    background-image: url(/COMMON/img/tabtop1.gif);
+    font-family: Arial;
+    background-repeat: no-repeat;
+    font-size: 5px;
+    color: rgb(235,241,245);
+    background-color: rgb(235,241,245);
+    width: 5px;
+    height: 27px;
+}
+.tab_top2s{
+    font-family: Arial;
+    background-image: url(/COMMON/img/tabtop2.gif);
+    background-repeat: no-repeat;
+    font-size: 5px;
+    color: rgb(235,241,245);
+    background-color: rgb(235,241,245);
+    width: 5px;
+    height: 27px;
+}
+.tab_row1 {
+    width: 5px;
+    background-color: rgb(235,241,245);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.tab_row2 {
+    width: 5px;
+    background-color: rgb(235,241,245);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.tab_bot1 {
+    background-image: url(/COMMON/img/tabbot1.gif);
+    font-family: Arial;
+    background-repeat: no-repeat;
+    font-size: 1px;
+    color: rgb(235,241,245);
+    background-color: rgb(235,241,245);
+    width: 5px;
+    height: 7px;
+}
+.tab_bot2{
+    background-image: url(/COMMON/img/tabbot2.gif);
+    font-family: Arial;
+    background-repeat: no-repeat;
+    font-size: 1px;
+    color: rgb(235,241,245);
+    background-color: rgb(235,241,245);
+    width: 5px;
+    height: 7px;
+}
+.tab_top {
+    cursor: pointer;
+    height: 26px;
+    background-color: rgb(107,123,136);
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+}
+.tab_tops{
+    height: 26px;
+    background-color: rgb(107,123,136);
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+}
+.tab_bot {
+    background-color: rgb(107,123,136);
+    font-family: Arial;
+    font-size: 1px;
+    color: #FFFFFF;
+    height: 7px;
+    text-decoration: none;
+    text-align: right;
+    vertical-align: middle;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+}
+.tab_header {
+    cursor: pointer;
+    background-color: rgb(107,123,136);
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    height: 26px;
+    text-decoration: none;
+    text-align: right;
+    vertical-align: middle;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+}
+.tab_headers{
+    background-color: rgb(107,123,136);
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    height: 26px;
+    text-decoration: none;
+    text-align: right;
+    vertical-align: middle;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+}
+.tab_row {
+
+    height: 26px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #6B7B88;
+    text-decoration: none;
+    background-color: rgb(235,241,245);
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+}
+.tab_rowbutton {
+    font-family: Arial;
+    font-size: 11px;
+    color: #6B7B88;
+    text-decoration: none;
+    background-color: rgb(235,241,245);
+    text-align: center;
+    padding-top: 1px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+}
+.tab_rowspace {
+    width: 1px;
+    background-color: rgb(255,255,255);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+.tab_topspace{
+    background-image: url(/COMMON/img/tabtopsp.gif);
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 1px;
+}
+.tab_space {
+    height: 1px;
+    background-color: rgb(255,255,255);
+}
+.tab_botspace{
+    background-image: url(/COMMON/img/tabbotsp.gif);
+    background-repeat: no-repeat;
+    height: 7px;
+    width: 1px;
+}
+.tab_trang {
+    cursor: pointer;
+    background-color: rgb(107,123,136);
+    height: 9px;
+    width: 9px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.start1 {
+    background-color:rgb(146,12,19);
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+}
+.start2 {
+    background-color: rgb(240,230,231);
+
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    height: 48px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Tahoma;
+}
+.start3 {
+    background-color:rgb(155,155,155);
+
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    text-decoration: none;
+}
+.TABLE2 {
+    border-style:none;
+}
+/* Sortable tables */
+TABLE.sortable THEAD {
+    background-color: #6B7B88;
+ 
+}
+.THEAD2 {
+    background-color: #6B7B88;
+    height: 26px;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    vertical-align: middle;
+    
+}
+.THEAD2_A{
+    background-color: #6B7B88;
+    height: 26px;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    font-style: italic;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    vertical-align: middle;
+    cursor: pointer;
+    
+}
+.TBODY2 {
+    border-style:none;
+    background:#EBF1F5;
+    padding-right: 3px;
+    padding-left: 6px;
+    font-size: 12px;
+    padding-bottom: 0px;
+    color: #6b7b88;
+    padding-top: 0px;
+    font-family: Arial;
+    height: 26px;
+    text-align: left;
+    text-decoration: none ;
+    
+}
+.TFOOT2 {
+    border-style:none;
+    background:#6B7B88;
+    height: 7px;
+}
+.THEAD2_LEFT {
+    background: url('/COMMON/img/top1.png') no-repeat left top;
+    background-color: #6B7B88;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    font-style: italic;
+    
+}
+.THEAD2_RIGHT {
+    background: url('/COMMON/img/top3.png') no-repeat right top;
+    background-color: #6B7B88;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    font-style: italic;
+}
+.TFOOT2_LEFT {
+    background: url('/COMMON/img/bot3s.png') no-repeat left bottom;
+    background-color: #6B7B88;
+}
+.TFOOT2_RIGHT {
+    background: url('/COMMON/img/bot4s.png') no-repeat right bottom;
+    background-color: #6B7B88;
+}
+TEXTAREA{ 
+    resize: none; 
+    width: 678px;
+    min-width: 678px;
+    max-width: 678px;
+}
+.ui-datepicker-trigger {     
+}
+TR.h16{
+    height: 16px;        
+}
+TR.h18{
+    height: 18px;        
+}
+
+TD.form_foto
+{
+    background-color: rgb(235,241,245);
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    cursor: default;
+    height: 50px;
+}
+IMG.fot1
+{
+    height: 54px;
+    width: 42px;
+}
+IMG.fot2
+{
+    height: 21px;
+    width: 77px;
+}
+
+
+
+TD.form_etyk2
+{
+    background-color: #D2DDE8;
+    height: 22px;
+    color: rgb(82,95,105);
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    vertical-align: middle;
+    cursor: default;   
+    max-width: 246px;
+    min-width: 246px;
+    width:246px;  
+}
+TD.form_tlo_area
+{
+    font-family: Tahoma;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(82,95,105);
+    text-align: justify;
+    text-indent: 10px;
+    background-color: rgb(235,241,245);
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    cursor: default;
+    max-width: 704px;
+    min-width: 704px;
+    width:704px;
+}
+TD.form_tlo2
+{
+    font-family: Tahoma;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(82,95,105);
+    text-align: left;    
+    background-color: rgb(235,241,245);
+    height: 22px;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    cursor: default;
+    max-width: 704px;
+    min-width: 704px;
+    width:704px;
+}
+TD.form_tlo_green
+{
+    font-family: Tahoma;
+    font-size: medium;
+    font-weight:bold;
+    text-decoration: none;
+    color: #129716;
+    text-align: left;    
+    background-color: rgb(235,241,245);
+    border-color: #129716;
+    border-style: solid;        
+    height: 34px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    cursor: default;
+    max-width: 704px;
+    min-width: 704px;
+    width:704px;
+}
+
+
+TD.form_tlo_red
+{
+    font-family: Tahoma;
+    font-size: medium;
+    font-weight:bold;
+    text-decoration: none;
+    color: #971216;
+    text-align: left;    
+    background-color: rgb(235,241,245);
+    border-color: #971216;
+    border-style: solid;        
+    height: 34px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    cursor: default;
+    max-width: 704px;
+    min-width: 704px;
+    width:704px;
+}
+INPUT{
+    font-family: Tahoma;
+}
+LABEL.radio{
+    font-size: small;
+}
+DIV.radio{
+    font-size: medium;   
+    margin-top: 0px;
+}
+TD.button{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+TD.powrot{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 1px;
+    padding-right: 1px;  
+    border-width: 2px;
+}
+TABLE.form_bar_table{
+    border-spacing: 0px;
+}
+P{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hasDatepicker{
+    vertical-align:top; 
+}
+
+DIV.foto1prv{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 127px; 
+    height: 182px;
+}
+DIV.foto2prv{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 210px;
+    height: 53px;
+}
+
+IMG.foto1prv{
+    display: block;
+}
+IMG.foto2prv{
+    display: block;
+}
+TD.foto0prv{
+ 
+    padding: 0;
+}
+TD.foto1prv{
+   
+width: 127px; 
+    height: 180px;
+    padding: 0;
+}
+TD.foto2prv{
+  
+    padding: 0;
+    width: 210px;
+    height: 53px;
+}
+
+IMG.foto1{
+    display: block;
+}
+IMG.foto2{
+    display: block;
+}
+TD.foto0{   
+    padding: 0;
+    vertical-align: top;
+}
+TD.foto1{   
+    margin-left: auto;
+    margin-right: auto;  
+    padding: 0;
+}
+TD.foto2{   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+TD.kp291{
+    background-color: #A8CEE2;
+    /*168,206,226*/
+}
+TD.kp293{
+    background-color: #0051BA;
+    /*0,81,191*/
+}
+TD.kp000{
+    background-color: #FFFFFF;
+}
+TD.kptext8{
+    font-family: Arial;
+    text-align: left;
+    vertical-align: top;
+    font-size: 8pt;
+}
+TD.kptext10{
+    font-family: Arial;
+    font-weight: bolder;
+    text-align: left;
+    vertical-align: top;
+    font-size: 5pt;
+    padding-left: 20px;
+}
+TD.kptext16a{
+    font-family: Arial;
+    font-weight: bolder;
+    text-align: left;
+    vertical-align: top;
+    font-size: 10pt;
+    padding-top: 30px;
+    padding-left: 12px;
+}
+TD.kptext16b{
+    font-family: Arial;
+    font-weight: bolder;
+    text-align: left;
+    vertical-align: top;
+    font-size: 10pt;
+    padding-top: 30px;
+    padding-left: 12px;
+}
+TABLE.kp{
+    margin-left:0;
+    margin-top: 0;
+    border-spacing: 0px;
+}
+DIV.mailinfo1{
+    font-weight: bolder;
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+DIV.mailinfo2{
+    font-weight: bolder;
+    color: rgb(82,95,105);
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+TD.rap_nag_left{
+    font-family: Tahoma;
+    text-align: left;
+    width:392px;
+    vertical-align: top;
+    padding-left: 10px;
+}
+TD.rap_nag_center{
+    font-family: Tahoma;
+    text-align: center;
+    width:196px;
+    vertical-align: top;
+}
+TD.rap_nag_right{
+    font-family: Tahoma;
+    text-align: right;
+    width:392px;
+    vertical-align: top;
+    padding-right: 10px;
+}
+TD.rap_hr3{
+    height:3px;
+}
+TD.rap_hr6{
+    height:6px;
+}
+TD.rap_hr12{
+    height:12px;
+}
+
+TD.karta {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url('/COMMON/img/karta.png');
+   /* background-color: #A8CEE2; 168,206,226 */
+}

@@ -1,0 +1,88 @@
+blockquote {
+    background: transparent url(/COMMON/mail/img/quoleft.gif) left top no-repeat;
+}
+blockquote div {
+    padding: 0 48px;
+    background: transparent url(/COMMON/mail/img/quoright.gif) right bottom no-repeat;
+}
+.zalacznik_podglad{
+    margin-left: 20px;
+}
+.statusMailBox1{
+    color: #7B7B7B;
+    font-size: 12px;
+}
+.statusMailBox2{
+    color: #cc9900;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.statusMailBox3{
+    color: #990033;
+    font-size: 12px;
+    font-weight: bolder;
+}
+#zawartosc{
+    position:relative;
+    display: block;
+    width: 980px;
+}
+#mneu_bar_mail{
+    display: block;
+    position:relative;
+    width: 980px;
+    margin-bottom: 10px;
+}
+#menu_mail {
+    width:220px;
+    float:left;
+    border-style: dotted;
+    border-width : 1px;
+}
+#tresc_mail{
+    float:left;
+    width: 747px;
+    margin-left :10px ;
+}
+.mailMenuNormal ,
+a.mailMenuNormal:link ,    /* unvisited link */
+a.mailMenuNormal:visited ,  /* visited link */
+a.mailMenuNormal:hover ,   /* mouse over link */
+a.mailMenuNormal:active {
+    text-decoration : none;
+    color: #6B7B88;
+    font-weight: normal;}   /* selected link */
+.mailMenuSelected ,
+a.mailMenuSelected:link ,   /* unvisited link */
+a.mailMenuSelected:visited , /* visited link */
+a.mailMenuSelected:hover, /* mouse over link */
+a.mailMenuSelected:active {
+    text-decoration : none;
+    color: #476B87;
+    font-weight: bold;}   /* selected link */
+#new_mail{
+    position:relative;
+    width: 960px;
+}
+.MultiFile-title{
+    background-color: #EBF1F5;
+    color: #525F69;
+    cursor: default;
+    font-family: Tahoma;
+    font-size: small;
+    height: 22px;
+    padding: 3px 5px 3px 8px;
+    text-decoration: none;
+}
+.MultiFile-remove{
+    background-color: #EBF1F5;
+    color: #525F69;
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: small;
+    font-weight: bold;
+    height: 22px;
+    padding: 3px 5px 3px 8px;
+    text-decoration: none;
+
+}
